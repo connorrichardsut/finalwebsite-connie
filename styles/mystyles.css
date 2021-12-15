@@ -1,0 +1,15 @@
+.fade {
+    color: gray;
+    font-style: italic;
+  }
+
+
+.description {
+  font-size: xx-small;
+  font-style: italic;
+}
+
+.img-set {
+  max-width: 50%;
+  height: 20px;
+}
