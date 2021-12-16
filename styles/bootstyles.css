@@ -1,0 +1,126 @@
+style
+/*CSS Comment*/
+
+table.a {
+    ;
+    width: 180px;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    /*color: red; */
+
+    color: black;
+    text-align: center;
+    
+  
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+    color:black;
+    
+    border-color: whitesmoke;
+    border-style: groove;
+    justify-content:space-evenly;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /*padding-right: 100px;*/
+
+}
+.style1 {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 16px;
+}
+
+nav {
+    font-weight: bold;
+    font-style: italic;
+    color: slategray;
+    
+    border-color: black;
+    border-style: groove;
+    text-align: right;
+    /*padding-right: 100px;*/
+}
+
+li {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+footer {
+    color: red;
+    background-color: black;
+    font-style: oblique;
+
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+head {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    color: grey;
+    border-color: whitesmoke;
+}
+
+/*a normal, unvisited link*/
+a:link{
+	color: black;
+}
+/*a link the user has visited*/
+a:visited{
+	color: black;
+}
+/*a link when the user mouses over it*/
+a:hover{
+	color:black;
+}
+/*a link the moment it is clicked*/
+a:active{
+	color:black;
+}
+.nav1 {
+    
+    color: white;
+ 
+    text-decoration: none;
+    
+    text-align: center;
+}
+
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 47%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-content: center;
+  }
+
+  .alignleft {
+    content align-content: left: ;
+  }
+
+  .alignright {
+    content align-content: right: ;
+  }
+
+  .footer {
+      color:black;
+      font-family: 'Times New Roman', Times, serif;
+      border: slategray;
+      text-align: center;
+  }
