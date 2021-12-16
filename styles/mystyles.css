@@ -13,3 +13,7 @@
   max-width: 50%;
   height: 20px;
 }
+
+.site-heading {
+  color: red !important;
+}
