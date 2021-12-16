@@ -1,19 +1,49 @@
-.fade {
-    color: gray;
-    font-style: italic;
-  }
 
-
-.description {
-  font-size: xx-small;
-  font-style: italic;
+.site-heading, h1 {
+  color: whitesmoke !important;
+  font-family: cursive !important;
 }
 
-.img-set {
-  max-width: 50%;
-  height: 20px;
+.subheading {
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.site-heading {
-  color: red !important;
+.post-subtitle {
+  color:gray !important;
+  
+}
+
+h2 {
+  text-decoration: underline !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-heading {
+font-style: unset;
+}
+
+.my-4, h4 {
+  color: black !important;
+  border-color: black !important;
+}
+
+.subhead {
+  font-size:15px;
+}
+
+.blockquote{
+  color: black;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:lighter !important;
 }
